@@ -19,4 +19,4 @@ while(inputValue.lower() != "farewell"):
     if(inputValue.lower() == "farewell"):
         print("Fare thee well!")
     else:
-        print(phrases[random.randint(0, len(phrases) - 1)], "\n\n")
+        print(random.choice(phrases), "\n\n")
